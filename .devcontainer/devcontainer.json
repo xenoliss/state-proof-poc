@@ -1,0 +1,21 @@
+{
+	"name": "state-proof-poc",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"runArgs": [
+		"--name=state-proof-poc"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"eamodio.gitlens",
+				"Gruntfuggly.todo-tree",
+				"NomicFoundation.hardhat-solidity",
+				"oven.bun-vscode",
+				"esbenp.prettier-vscode",
+				"pflannery.vscode-versionlens"
+			]
+		}
+	}
+}

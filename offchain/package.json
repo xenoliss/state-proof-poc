@@ -6,11 +6,12 @@
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@chainsafe/ssz": "^0.15.1",
-    "@lodestar/types": "^1.17.0",
-    "viem": "^2.9.16"
+    "@chainsafe/ssz": "^0.18.0",
+    "@lodestar/api": "^1.23.0",
+    "@lodestar/types": "^1.23.0",
+    "viem": "^2.21.51"
   }
 }

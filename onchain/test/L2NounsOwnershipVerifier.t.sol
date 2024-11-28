@@ -12,7 +12,7 @@ contract L2NounsOwnershipVerifierTest is Test {
     using stdJson for string;
 
     function test() public {
-        vm.createSelectFork("https://mainnet.base.org", 18997612);
+        vm.createSelectFork("https://mainnet.base.org", 23005004);
         L2NounsOwnershipVerifier verifier = new L2NounsOwnershipVerifier();
         string memory rootPath = vm.projectRoot();
         string memory path = string.concat(rootPath, "/test/data.json");
